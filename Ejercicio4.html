@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+    
+    <label for="nombre">Escriba su nombre: </label>
+    <input type="text" name="nom">
+    <br>
+    <br>
+    <label for="contra">Escriba su contraseña: </label>
+    <input type="password" name="contra">
+    <br>
+    <br>
+    <label for="instrumento">¿Qué instrumento tocas? </label>
+    <input type="radio" id="instrumento" name="instrumento" value="1">Piano
+        <input type="radio" id="instrumento" name="instrumento" value="2">Guitarra
+        <input type="radio" id="instrumento" name="instrumento" value="3">Bajo
+        <input type="radio" id="instrumento" name="instrumento" value="3">Beteria
+        <br>
+        <br>
+        <select name="Cosas" id="opci">
+    
+          <option value="1">Jugar</option>
+          <option value="2">Calcular</option>
+          <option value="3">Ejecutar</option>
+          <option value="4">Borrar</option>
+          
+          </select>
+        <br>
+        <br>
+        <input type="button" onclick="alert('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non tristique mauris, at eleifend nulla. Aenean augue nunc, gravida sed')" value="EL LOREM" name="btnLoren">&nbsp;&nbsp;
+        
+        <input type="checkbox" id="Lorem" name="Lorem" value="1">Acepte el Lorem por su bien
+        <br>
+        <br>
+        <textarea name="comentarios" id="coment" cols="50" rows="5" placeholder="Ingrese un comentario"></textarea>
+        <input type="submit" name="Enviar">
+  </form>
+  <p><a href="/Index.html">Ir-Al-Indice</a></p>
+</body>
+</html>
